@@ -13,17 +13,19 @@ body {
   height: 100vh;
   background: #eaeaea;
 }
+
+/* Hela sidan */
 .container {
   width: 100%;
 }
-
+/* Vårat övre block */
 .container .top {
   display: flex;
   width: 100%;
   height: 500px;
   background: red;
 }
-
+/* Övre block delat på helften, vänster del */
 .container .top .left {
   display: flex;
   flex-direction: column;
@@ -31,13 +33,15 @@ body {
   height: 100%;
   background: #c6dde9;
 }
-
+/* Övre block vänster h1, p */
 .container .top .left .heading {
   position: relative;
   margin-top: auto;
   margin: auto;
   width: 70%;
 }
+
+/* storlek och posiotion för h1 */
 .left h1 {
   font-size: 40px;
   margin-top: 20%;
@@ -47,22 +51,24 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/* storlek och font family för p */
 .left p {
   font-size: 14px;
   /* font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
+
+/* Gör specifikt del i texten vit  */
 .container .top .left span {
   color: white;
 }
-
+/* Position och storlek av img */
 .container .top .left img {
   width: 250px;
   height: 250px;
   align-self: flex-end;
 }
-
+/* Position och styling av button */
 .heading .button {
   top: 40vh;
   position: absolute;
@@ -83,13 +89,13 @@ body {
   cursor: pointer;
   outline: none;
 }
-
+/* Övre block höger sida med 2 boxar ovanpå varanndra */
 .container .top .right {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-
+/* Position och storlek övre box */
 .container .top .right .inner-top {
   flex-direction: column;
   width: 100%;
@@ -99,20 +105,20 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/* Storlek på h4 och font family */
 .inner-top h4 {
   font-size: 11px;
   /* font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
-
+/* strolek på p, font family och färg */
 .inner-top p {
   /* font-family: "Times New Roman", Times, serif; */
   font-family: "Merriweather", serif;
   font-size: 30px;
   color: #fff;
 }
-
+/* posiotion och storlek på nedre box */
 .container .top .right .inner-bottom {
   flex-direction: column;
   width: 100%;
@@ -122,36 +128,36 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/* Nedre sorlek och font family på h4 */
 .inner-bottom h4 {
   font-size: 11px;
   /* font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
-
+/* Nedre storlek font family, färg på p */
 .inner-bottom p {
   /* font-family: "Times New Roman", Times, serif; */
   font-family: "Merriweather", serif;
   font-size: 30px;
   color: #fff;
 }
-
+/* menu position och stolek*/
 .main-nav {
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+/* menu styling */
 .main-nav ul {
   list-style: none;
   display: flex;
 }
-
+/* menu avstånd mellan knappar */
 li {
   margin: 0 5vw;
 }
-
+/* knapparnas storlek och styling */
 li a {
   padding: 10px;
   color: #999;
@@ -160,11 +166,11 @@ li a {
   /* font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
-
+/* activ knapp */
 li a.active {
   color: #111;
 }
-
+/* Main kontainer med 3 boxar och cards */
 .main-container {
   width: 100%;
   height: 1200px;
@@ -173,13 +179,13 @@ li a.active {
   justify-content: space-evenly;
   background: linear-gradient(#a8a19e 50%, #f9b131 50%);
 }
-
+/* Button boxen */
 .main-container .main-top {
   height: 250px;
   width: 80%;
   margin: auto;
 }
-
+/* Cards box */
 .main-container .main-center {
   display: flex;
   align-items: center;
@@ -188,7 +194,7 @@ li a.active {
   width: 80%;
   margin: auto;
 }
-
+/* About us */
 .main-container .main-bottom {
   display: flex;
   flex-direction: column;
@@ -196,11 +202,11 @@ li a.active {
   width: 80%;
   margin: auto;
 }
-
+/* styling för h1 tag i hela elementet */
 .main-container h1 {
   color: white;
 }
-
+/* Button i stora containern */
 .main-container .button {
   margin-top: 50px;
   width: 140px;
@@ -219,17 +225,17 @@ li a.active {
   cursor: pointer;
   outline: none;
 }
-
+/* position för button och h1 i main */
 .main-top-left {
   margin: auto;
   width: 50%;
 }
-
+/* Positionering i översta boxen */
 .main-top {
   display: flex;
   justify-content: space-between;
 }
-
+/* Positionering för p i översta main containern */
 .main-top-right {
   /* font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
@@ -239,42 +245,42 @@ li a.active {
   display: flex;
   margin-top: 20px;
 }
-
+/* Card 1 */
 .main-center .box1 {
   border-radius: 2%;
   height: 250px;
   width: 220px;
   background: #fff;
 }
-
+/* Card 2 */
 .main-center .box2 {
   border-radius: 2%;
   height: 250px;
   width: 220px;
   background: #fff;
 }
-
+/* Card 3 */
 .main-center .box3 {
   border-radius: 2%;
   height: 250px;
   width: 220px;
   background: #fff;
 }
-
+/* positioner av bilder i cards */
 .main-center img {
   margin-top: -20px;
   margin-left: 10px;
   width: 200px;
   border-radius: 2%;
 }
-
+/* Positionering av h3 i cards */
 .main-center h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
 }
-
+/* Positionering av p i cards */
 .main-center p {
   justify-content: space-around;
   /* font-family: "PT Sans", sans-serif; */
@@ -288,7 +294,7 @@ li a.active {
   justify-content: center;
   margin-top: 10px;
 }
-
+/* Positionering styling av nedre h1 */
 .main-bottom h1 {
   margin-top: 10px;
   font-size: 40px;
@@ -298,7 +304,7 @@ li a.active {
   align-items: center;
   justify-content: center;
 }
-
+/* Positionering styling av nedre p */
 .main-bottom p {
   width: 50%;
   margin: auto;
@@ -310,13 +316,13 @@ li a.active {
   /*  font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
-
+/* Grid container */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(300px, auto);
 }
-
+/* Generell styling av grid containern */
 .grid-container > div {
   display: flex;
   padding: 20px;
@@ -325,45 +331,47 @@ li a.active {
   flex-direction: column;
   justify-content: center;
 }
-
+/* Styling i första blocket i grid */
 .grid-container > div:first-child > h1 {
   font-size: 3.5rem;
 }
+/* Generell styling för h2 i grid containern */
 .grid-container > div h2 {
   font-size: 1.8rem;
   color: #444;
   align-self: flex-start;
   margin-bottom: auto;
 }
-
+/* Generell styling av p i grid containern */
 .grid-container > div p {
   font-size: 1rem;
   margin-bottom: auto;
   /* font-family: "PT Sans", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
-
+/* Generell bakrund */
 .grid-container > div:nth-child(even) {
   background: #fff;
 }
-
+/* Bakrunds färg för första boxen */
 .grid-container > div:first-child {
   background: #c6dde9;
 }
+/* Bakrunds färg för 3 boxen */
 .grid-container > div:nth-child(3) {
   background: #eaeaea;
 }
-
+/* bakrund för 5 boxen */
 .grid-container > div:nth-child(5) {
   background: #f07949;
 }
-
+/* footer med en take me up länk */
 .footer {
   background: darkgray;
   width: 100%;
   height: 300px;
 }
-
+/* Länken som tar dig upp till top */
 .footer .top-content {
   height: 70px;
   display: flex;
@@ -375,7 +383,7 @@ li a.active {
   font-family: "Roboto", sans-serif;
   padding-bottom: 5px;
 }
-
+/* styling av länk */
 .footer .top-content a {
   color: #111;
   display: inline-block;
@@ -384,10 +392,7 @@ li a.active {
   flex-direction: column;
   align-items: center;
 }
-
+/* storlek av Chevron (pilen upp) */
 .footer .top-content a i {
   font-size: 1rem;
 }
-
-/* Saker kommenterade ut är det font som jag har ändrat om 
-inte ser bra ut kan ändras snabbt tillbaka */
