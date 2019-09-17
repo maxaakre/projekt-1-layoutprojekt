@@ -12,6 +12,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 100vh;
+  background:#EAEAEA ;
 }
 .container {
   width: 100%;
@@ -29,7 +30,7 @@ body {
   flex-direction: column;
   width: 50%;
   height: 100%;
-  background: lightblue;
+  background: #C6DDE9;
 }
 
 .container .top .left .heading {
@@ -41,7 +42,8 @@ body {
 .left h1 {
   font-size: 40px;
   margin-top: 20%;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: 'Merriweather', serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,7 +51,8 @@ body {
 
 .left p {
   font-size: 14px;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 .container .top .left span {
   color: white;
@@ -66,7 +69,8 @@ body {
   position: absolute;
   width: 140px;
   height: 45px;
-  font-family: "roboto", sans-serif;
+  /* font-family: "roboto", sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -91,7 +95,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 250px;
-  background-color: orangered;
+  background-color: #F07949;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,11 +103,13 @@ body {
 
 .inner-top h4 {
   font-size: 11px;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .inner-top p {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: 'Merriweather', serif;
   font-size: 30px;
   color: #fff;
 }
@@ -112,7 +118,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 250px;
-  background-color: orange;
+  background-color: #F9B131;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,11 +126,13 @@ body {
 
 .inner-bottom h4 {
   font-size: 11px;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .inner-bottom p {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: 'Merriweather', serif;
   font-size: 30px;
   color: #fff;
 }
@@ -150,7 +158,8 @@ li a {
   color: #999;
   font-size: 1rem;
   text-decoration: none;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 li a.active {
@@ -163,7 +172,7 @@ li a.active {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: linear-gradient(grey 50%, orange 50%);
+  background: linear-gradient(#A8A19E 50%, #F9B131 50%);
 }
 
 .main-container .main-top {
@@ -197,7 +206,7 @@ li a.active {
   margin-top: 50px;
   width: 140px;
   height: 45px;
-  font-family: "roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -223,7 +232,8 @@ li a.active {
 }
 
 .main-top-right {
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
   padding-right: 20px;
   width: 50%;
   margin: auto;
@@ -268,7 +278,8 @@ li a.active {
 
 .main-center p {
   justify-content: space-around;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-size: 10px;
   width: 92%;
   height: 100px;
@@ -282,7 +293,8 @@ li a.active {
 .main-bottom h1 {
   margin-top: 10px;
   font-size: 40px;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: 'Merriweather', serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,7 +308,8 @@ li a.active {
   color: #333;
   font-size: 0.8rem;
   line-height: 1.6;
-  font-family: "PT Sans", sans-serif;
+ /*  font-family: "PT Sans", sans-serif; */
+ font-family: 'Roboto', sans-serif;
 }
 
 .grid-container {
@@ -327,7 +340,8 @@ li a.active {
 .grid-container > div p {
   font-size: 1rem;
   margin-bottom: auto;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .grid-container > div:nth-child(even) {
@@ -335,14 +349,14 @@ li a.active {
 }
 
 .grid-container > div:first-child {
-  background: lightskyblue;
+  background: #C6DDE9;
 }
 .grid-container > div:nth-child(3) {
-  background: #ccc;
+  background: #EAEAEA;
 }
 
 .grid-container > div:nth-child(5) {
-  background: orangered;
+  background: #F07949;
 }
 
 .footer {
@@ -358,7 +372,8 @@ li a.active {
   justify-content: center;
   background: lightgray;
   font-size: 15px;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
   padding-bottom: 5px;
 }
 
@@ -374,3 +389,6 @@ li a.active {
 .footer .top-content a i {
   font-size: 1rem;
 }
+
+/* Saker kommenterade ut är det font som jag har ändrat om 
+inte ser bra ut kan ändras snabbt tillbaka */
