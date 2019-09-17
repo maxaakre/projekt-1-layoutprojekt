@@ -7,12 +7,11 @@
 body {
   padding-left: 80px;
   padding-right: 80px;
-
   align-content: center;
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background:#EAEAEA ;
+  background: #eaeaea;
 }
 .container {
   width: 100%;
@@ -30,7 +29,7 @@ body {
   flex-direction: column;
   width: 50%;
   height: 100%;
-  background: #C6DDE9;
+  background: #c6dde9;
 }
 
 .container .top .left .heading {
@@ -43,7 +42,7 @@ body {
   font-size: 40px;
   margin-top: 20%;
   /* font-family: "Times New Roman", Times, serif; */
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +51,7 @@ body {
 .left p {
   font-size: 14px;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .container .top .left span {
   color: white;
@@ -70,7 +69,7 @@ body {
   width: 140px;
   height: 45px;
   /* font-family: "roboto", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -95,7 +94,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 250px;
-  background-color: #F07949;
+  background-color: #f07949;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,12 +103,12 @@ body {
 .inner-top h4 {
   font-size: 11px;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .inner-top p {
   /* font-family: "Times New Roman", Times, serif; */
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 30px;
   color: #fff;
 }
@@ -118,7 +117,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 250px;
-  background-color: #F9B131;
+  background-color: #f9b131;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,12 +126,12 @@ body {
 .inner-bottom h4 {
   font-size: 11px;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .inner-bottom p {
   /* font-family: "Times New Roman", Times, serif; */
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 30px;
   color: #fff;
 }
@@ -159,7 +158,7 @@ li a {
   font-size: 1rem;
   text-decoration: none;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 li a.active {
@@ -172,7 +171,7 @@ li a.active {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background: linear-gradient(#A8A19E 50%, #F9B131 50%);
+  background: linear-gradient(#a8a19e 50%, #f9b131 50%);
 }
 
 .main-container .main-top {
@@ -206,7 +205,7 @@ li a.active {
   margin-top: 50px;
   width: 140px;
   height: 45px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -233,7 +232,7 @@ li a.active {
 
 .main-top-right {
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-right: 20px;
   width: 50%;
   margin: auto;
@@ -279,7 +278,7 @@ li a.active {
 .main-center p {
   justify-content: space-around;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 10px;
   width: 92%;
   height: 100px;
@@ -294,7 +293,7 @@ li a.active {
   margin-top: 10px;
   font-size: 40px;
   /* font-family: "Times New Roman", Times, serif; */
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,8 +307,8 @@ li a.active {
   color: #333;
   font-size: 0.8rem;
   line-height: 1.6;
- /*  font-family: "PT Sans", sans-serif; */
- font-family: 'Roboto', sans-serif;
+  /*  font-family: "PT Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 .grid-container {
@@ -341,7 +340,7 @@ li a.active {
   font-size: 1rem;
   margin-bottom: auto;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid-container > div:nth-child(even) {
@@ -349,14 +348,14 @@ li a.active {
 }
 
 .grid-container > div:first-child {
-  background: #C6DDE9;
+  background: #c6dde9;
 }
 .grid-container > div:nth-child(3) {
-  background: #EAEAEA;
+  background: #eaeaea;
 }
 
 .grid-container > div:nth-child(5) {
-  background: #F07949;
+  background: #f07949;
 }
 
 .footer {
@@ -373,7 +372,7 @@ li a.active {
   background: lightgray;
   font-size: 15px;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-bottom: 5px;
 }
 
